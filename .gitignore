@@ -1,0 +1,46 @@
+# .gitignore file for your backend
+
+# Node.js
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+
+# Build output (if any, like dist or build)
+dist/
+build/
+
+# Dependency directories
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database
+*.sql
+*.sqlite
+*.pgpass
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Test coverage output
+coverage/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Optional: Redis data files (if you're using Redis)
+dump.rdb
+
+# Optional: Ignore any private files (if applicable)
+private/
